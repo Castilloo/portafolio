@@ -1,0 +1,88 @@
+.icons {
+    width: 100%;
+    /* border: 1px solid darkgoldenrod; */
+    font-size: larger;
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .icons,
+    .icons span {
+        overflow: visible;
+    }
+
+    .icon-item:hover {
+        cursor: pointer;
+        overflow-x: visible;
+        color: rgba(222, 211, 235, 0.877);
+        text-shadow: 0px 0px 3px rgba(194, 175, 209, 0.877); 
+        transition-duration: 0.3s;
+        /* width: 100px; */
+        /* border: 1px solid blue; */
+    } 
+
+    .botons {
+        /* border: 1px solid skyblue; */
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .btn {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 40px;
+        position: relative; 
+        padding-left: 70px;
+        transition: all 0.3s ease-in;
+        transition-duration: 0.3s;
+    }
+    
+    .btn:hover {
+        margin-left: 30px;
+        font-weight: bolder;
+        cursor: pointer;
+        color: rgba(209, 187, 235, 0.877);
+        text-shadow: 0px 0px 9px rgba(194, 175, 209, 0.877); 
+    }
+    
+    .btn::before {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background-color: currentColor;
+        top: 1.2em;
+        left: 30px;
+        transition-duration: 0.3s;
+    }
+
+
+    .btn:hover::before {
+        color: rgba(209, 187, 235, 0.877);
+        text-shadow: 0px 0px 9px rgba(194, 175, 209, 0.877);  
+        transform: scaleX(1.85) translateX(-10px);
+    }
+
+    .btn-active {
+        margin-left: 30px;
+        font-weight: bolder;
+        cursor: pointer;
+        color: rgba(209, 187, 235, 0.877);
+        text-shadow: 0px 0px 9px rgba(194, 175, 209, 0.877);
+    }
+
+    .btn-active::before {
+        color: rgba(209, 187, 235, 0.877);
+        text-shadow: 0px 0px 9px rgba(194, 175, 209, 0.877);  
+        transform: scaleX(1.85) translateX(-10px);
+    }
+}

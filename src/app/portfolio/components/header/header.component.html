@@ -1,0 +1,23 @@
+<h1 class="title-font">Diego Castillo</h1>
+<h3 class="subtitle-font">Fullstack developer</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos suscipit quidem recusandae, deleniti
+    expedita perspiciatis voluptates provident numquam asperiores?</p>
+
+<div class="botons" *ngIf="isActive">
+    <div 
+        class="btn" 
+        *ngFor="let item of items; let i = index" 
+        (click)="scrollTo(i)"
+        [ngClass]="{ 'btn-active': item.isActive }"
+    >
+        {{ item.name }}
+    </div>
+</div>
+
+<div class="icons">
+    <span [attr.data-tooltip]="icon.attr" *ngFor="let icon of icons; let i = index" class="icon-item tooltip">
+        <i [ngClass]="icon.name" (click)="copyEmail(i)"></i>
+    </span>
+</div>
+
+<!-- [ngClass]="{ 'active': isActive(i) }" -->

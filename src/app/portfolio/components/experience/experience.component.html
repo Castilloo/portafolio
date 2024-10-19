@@ -1,0 +1,20 @@
+<section>
+    <h3 *ngIf="isActive">Experience</h3>
+    <div class="x-container" 
+        *ngFor="let exp of experiences$ | async; let i = index"
+        (mouseenter)="setHover(i)"
+        (mouseleave)="setHover(undefined)" 
+    >
+        <div class="x-col-left">{{ getMonthsAndYears(exp.start_date, exp.end_date) }}</div>
+        <div class="x-col-right">
+            <h4 [ngClass]="{ 'x-h4': isHover(i) }">{{ exp.role }} - {{ exp.company }}</h4>
+            <p>
+                {{ exp.description }}
+            </p>
+            <portfolio-buttons [languages]="exp.technologies" />
+        </div>
+
+        <!-- <pre>{{ getMonthsAndYears(exp.start_date, exp.end_date) | json }}</pre> -->
+    </div>
+</section>
+

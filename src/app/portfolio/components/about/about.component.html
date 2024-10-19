@@ -1,0 +1,20 @@
+<section>
+    <div>
+        <h3 *ngIf="isActive">About</h3>
+        <p>{{ dataAbout?.description }}</p>
+        <div class="container">
+            <span 
+                *ngFor="let lang of dataAbout?.languages"
+                [attr.data-tooltip]="lang.name"
+                class="tooltip"
+            >
+                <img 
+                    class="tool"
+                    [src]="getUrlImg(lang.img_name)" 
+                    [alt]="lang.img_name" 
+                />
+            </span>
+        </div>
+    </div>
+</section>
+

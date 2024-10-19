@@ -1,0 +1,45 @@
+section {
+    /* border: 1px solid red; */
+    padding-top: 25px;
+    
+}
+
+.container {
+    /* border: 1px solid salmon; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    overflow: visible;
+}
+
+.container .tooltip {
+    /* border: 1px solid olivedrab; */
+    overflow: visible;
+}
+
+.container .tooltip::before {
+    bottom: 4em;
+    width: max-content;
+}
+
+.tool {
+    width: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    .tool {
+        width: 40px;
+        cursor: pointer;
+    }
+}   
+
+@media only screen and (min-width: 1024px) {
+    section {
+        /* border: 1px solid red; */
+        padding-top: 40px;
+        padding-left: 20px;
+    }
+
+}

@@ -1,0 +1,13 @@
+<section>
+    <h3 *ngIf="isActive" >Projects</h3>
+    <div class="card" *ngFor="let project of projects$ | async">
+        <div class="card-img">
+            <img [src]="getImg(project.imageUrl)" [alt]="project.name">
+        </div>
+        <div class="card-text">
+            <h5>{{ project.name }}</h5>
+            <p>{{ project.description }}</p>
+            <portfolio-buttons [languages]="project.technologies" />
+        </div>
+    </div>
+</section>

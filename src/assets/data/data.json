@@ -1,0 +1,98 @@
+{
+    "about": [
+        {
+            "id": 1,
+            "description": "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci",
+            "languages": [
+                { "img_name": "html_5.png","name": "HTML5"
+                },
+                { "img_name": "css_3.png","name": "CSS3"
+                },
+                { "img_name": "js.png","name": "Javascript"
+                },
+                { "img_name": "angular.svg","name": "Angular"
+                },
+                { "img_name": "typescript.svg","name": "Typescript"
+                },
+                { "img_name": "c_sharp.svg","name": "C#"
+                },
+                { "img_name": "dot_net.png","name": ".NET"
+                },
+                { "img_name": "sql_server.svg","name": "SQL Server"
+                },
+                { "img_name": "mysql.png","name": "MySQL"
+                },
+                { "img_name": "docker.png","name": "Docker"
+                },
+                { "img_name": "postman.png","name": "Postman"
+                }
+            ]
+        }
+    ],
+    "experiencies": [
+        {
+            "id": 1,
+            "start_date": "9/23/2024",
+            "end_date": "12/24/2025",
+            "role": "Engineer",
+            "company": "Abata",
+            "description": "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
+            "technologies": "Angular,HTML,CSS,Typescript"
+        },
+        {
+            "id": 2,
+            "start_date": "11/27/2023",
+            "end_date": "2/19/2024",
+            "role": "Fullstack Developer",
+            "company": "Myworks",
+            "description": "Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
+            "technologies": "C#,.NET,SQL Server,Docker"
+        },
+        {
+            "id": 3,
+            "start_date": "6/13/2024",
+            "end_date": "10/19/2024",
+            "role": "Backend dev",
+            "company": "Mymm",
+            "description": "Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.",
+            "technologies": "Javascript,Node.Js,HTML,CSS"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "Business Ethics",
+            "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+            "technologies": "C#,.NET,SQL Server,Docker",
+            "imageUrl": "default-featured-image.png"
+        },
+        {
+            "id": 2,
+            "name": "Emerging Markets",
+            "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.\n\nVestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+            "technologies": "Javascript,Node.Js,HTML,CSS",
+            "imageUrl": "default-featured-image.png"
+        },
+        {
+            "id": 3,
+            "name": "Knowledge Transfer",
+            "description": "Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+            "technologies": "Angular,HTML,CSS,Typescript",
+            "imageUrl": "default-featured-image.png"
+        },
+        {
+            "id": 4,
+            "name": "UK Employment Law",
+            "description": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.\n\nPhasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+            "technologies": "HTML,CSS,Javascript,Java",
+            "imageUrl": "default-featured-image.png"
+        },
+        {
+            "id": 5,
+            "name": "RF Scanners",
+            "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+            "technologies": "HTML,CSS,Javascript,PHP",
+            "imageUrl": "default-featured-image.png"
+        }
+    ]
+}

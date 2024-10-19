@@ -1,0 +1,13 @@
+.langs { 
+    display: flex; 
+    flex-direction: row; 
+    gap: 10px; 
+}
+
+.btn { 
+    padding: 5px 8px;
+    background-color: rgba(159, 68, 177, 0.616); 
+    color: rgb(252, 90, 252);
+    border-style: hidden;
+    border-radius: 0.7rem;
+}
